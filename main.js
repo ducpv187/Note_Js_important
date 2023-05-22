@@ -5,12 +5,15 @@
 //c1
 $(function () {
     $('').on('click', function () {        
+        console.log( "ready!" );
     });
 });
 
 //c2
 $( document ).ready(function() {
-    console.log( "ready!" );
+    $('').on('click', function () {        
+        console.log( "ready!" );
+    });    
 });
 
 
